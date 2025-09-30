@@ -1,0 +1,16 @@
+{
+  "name": "trace-chaincode",
+  "version": "1.0.0",
+  "description": "HerbalChain traceability chaincode",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node --check index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.4.0",
+    "fabric-shim": "^2.4.0",
+    "uuid": "^8.3.2"
+  }
+}
+
